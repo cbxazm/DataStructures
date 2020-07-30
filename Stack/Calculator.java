@@ -7,7 +7,7 @@ import java.util.OptionalInt;
  */
 public class Calculator {
     public static void main(String[] args) {
-        String expression="1000+3/6";
+        String expression="10-3-6-2-5";
         //创建两个栈，一个数栈，一个符号栈
         ArrayStack2 numStack = new ArrayStack2(10);
         ArrayStack2 operStack = new ArrayStack2(10);
